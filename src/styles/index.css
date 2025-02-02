@@ -14,7 +14,33 @@ body {
 
 .card {
   margin-bottom: 20px;
+  border-radius: 5px;
 }
+
+.small-card, .small-card-planets, .small-card-vehicles {
+  box-shadow: 2px 4px 10px rgba(255, 215, 0, 0.3);
+}
+
+.small-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 4px 8px 15px rgba(255, 215, 0, 0.5);
+}
+
+.small-card-planets:hover {
+  transform: translateY(-10px);
+  box-shadow: 4px 8px 15px rgba(255, 215, 0, 0.5);
+}
+
+.small-card-vehicles:hover {
+  transform: translateY(-10px);
+  box-shadow: 4px 8px 15px rgba(255, 215, 0, 0.5);
+}
+
+.big-card, .card-info-planets, .card-info-vehicles {
+  box-shadow: 2px 4px 10px rgba(255, 215, 0, 0.3);
+}
+
+
 
 .img-logo {
   width: 250px;
@@ -95,6 +121,7 @@ body {
   background-color: black;
   color: white;
   padding: 20px;
+  border-radius: 5px;
 }
 
 .big-card-container {
@@ -132,6 +159,7 @@ body {
 .card-body-main {
   background-color: black;
   color: white;
+  border-radius: 5px;
 }
 
 .img-vehicle-detail {
@@ -140,4 +168,16 @@ body {
 
 .page-content {
   padding-bottom: 40px;
+}
+
+.icon-favorite {
+  color: #ffd700;
+}
+
+.navbar {
+  background-color: #1c1c1c;
+}
+
+.footer {
+  background-color: #1c1c1c;
 }

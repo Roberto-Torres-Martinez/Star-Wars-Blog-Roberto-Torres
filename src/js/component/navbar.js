@@ -7,14 +7,8 @@ export const Navbar = () => {
 
 	const { store, actions } = useContext(Context)
 
-	const [favorites, setFavorites] = useState()
-
-	useEffect(() => {
-		actions.addFavorite()
-	}, []);
-
 	return (
-		<nav className="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+		<nav className="navbar navbar-expand-lg border-bottom border-body" data-bs-theme="dark">
 			<div className="container-fluid col-md-12">
 				<Link to="/" className="navbar-brand text-white ms-3">
 					<img id="logo" src="https://img.icons8.com/color/512/star-wars.png" style={{ width: '50px', height: 'auto' }} />
@@ -26,7 +20,7 @@ export const Navbar = () => {
 					<ul className="navbar-nav">
 						<li className="nav-item dropdown">
 							<a className="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-								<i className="fa-regular fa-star text-white me-1"></i>
+								<i className="fa-regular fa-star icon-favorite me-1"></i>
 								Favorites
 							</a>
 							<ul className="dropdown-menu dropdown-menu-dark">

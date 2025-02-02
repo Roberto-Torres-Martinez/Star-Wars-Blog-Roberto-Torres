@@ -17,7 +17,7 @@ export const PlanetsInfo = () => {
     return (
         <div className="container">
             <div className="col-12 col-md-12">
-                <div className="card mb-3">
+                <div className="card card-info-planets mb-3">
                     <div className="row g-0">
                         <div className="col-md-4">
                             <img src={params.id == 1 ? `https://static.wikia.nocookie.net/esstarwars/images/b/b0/Tatooine_TPM.png/revision/latest?cb=20131214162357` : `https://starwars-visualguide.com/assets/img/planets/${params.id}.jpg`} className="img-fluid rounded-start img-big-card border border-dark-subtle" alt="..." />

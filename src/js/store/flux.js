@@ -114,9 +114,12 @@ const getState = ({ getStore, getActions, setStore }) => {
 			},
 
 			addFavorite: (favs) => {
-				let favList = [...getStore().favorites]
-				favList.push(favs);			
-				setStore({ favorites: favList });
+				let favList = [...getStore().favorites];
+			
+				if (!favList.includes(favs)) {
+					favList.push(favs);
+					setStore({ favorites: favList });
+				}
 			},
 
 			removeFavorite: (remove) => {

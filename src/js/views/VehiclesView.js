@@ -12,7 +12,7 @@ export const VehiclesView = () => {
         actions.getVehicles();
     }, []);
     return (
-        <div className="container-fluid bg-black">
+        <div className="container-fluid">
             <div className="row justify-content-center">
                 {store.vehicles.map((vehicle, index) => {
                     return (

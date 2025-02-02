@@ -13,7 +13,7 @@ export const PlanetsView = () => {
     }, []);
 
     return (
-        <div className="container-fluid bg-black">
+        <div className="container-fluid">
             <div className="row justify-content-center">
                 {store.planets.map((planet, index) => {
                     return (

@@ -19,7 +19,7 @@ export const PeopleInfo = () => {
     return (
         <div className="container">
             <div className="col-12 col-md-12">
-                <div className="card mb-3">
+                <div className="card big-card mb-3">
                     <div className="row g-0">
                         <div className="col-md-4">
                             <img src={`https://starwars-visualguide.com/assets/img/characters/${params.id}.jpg`} className="img-fluid rounded-start img-big-card border border-dark-subtle" alt="..." />

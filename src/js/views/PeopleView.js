@@ -14,7 +14,7 @@ export const PeopleView = () => {
 
 
     return (
-        <div className="container-fluid bg-black">
+        <div className="container-fluid">
             <div className="row justify-content-center">
                 {store.people.map((character, index) => {
                     return (

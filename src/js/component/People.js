@@ -34,7 +34,7 @@ export const People = ({ character }) => {
 
     return (
         <div className="container page-content">
-            <div className="card" style={{ width: '18rem' }}>
+            <div className="card small-card" style={{ width: '18rem' }}>
                 <img src={`https://starwars-visualguide.com/assets/img/characters/${uidCharacter}.jpg`} className="card-img-top border border-dark-subtle" alt="..." />
 
                 <div className="card-body-main">

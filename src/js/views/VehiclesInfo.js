@@ -17,7 +17,7 @@ export const VehiclesInfo = () => {
     return (
         <div className="container">
             <div className="col-12 col-md-12">
-                <div className="card mb-3">
+                <div className="card card-info-vehicles mb-3">
                     <div className="row g-0">
                         <div className="col-md-4 big-card-container">
                             <img src={`https://starwars-visualguide.com/assets/img/vehicles/${params.id}.jpg`} className="img-fluid rounded-start img-big-card border border-dark-subtle img-vehicle-detail" alt="..." />

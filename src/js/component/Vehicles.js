@@ -34,7 +34,7 @@ export const Vehicles = ({ vehicle }) => {
 
     return (
         <div className="container page-content">
-            <div className="card mt-5" style={{ width: '18rem' }}>
+            <div className="card small-card-vehicles mt-5" style={{ width: '18rem' }}>
                 <img src={`https://starwars-visualguide.com/assets/img/vehicles/${uidVehicles}.jpg`} className="card-img-top border border-dark-subtle" alt="..." />
 
                 <div className="card-body-main">
